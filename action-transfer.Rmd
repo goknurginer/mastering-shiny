@@ -172,7 +172,7 @@ server <- function(input, output, session) {
 }
 ```
 
-[^tsv-csv]: `.tsv` file is to be preferred over a `.csv` because many European countries use commas to separate the whole and fractional parts of a number (e.g. `1,23` not `1.23`). This means they can't use commas to separate fields and instead use semi-colons. It's best to just side-step this issue together, and instead just use tab separatea files.
+[^tsv-csv]: `.tsv` file is to be preferred over a `.csv` because many European countries use commas to separate the whole and fractional parts of a number (e.g. `1,23` not `1.23`). This means they can't use commas to separate fields and instead use semi-colons. It's best to just side-step this issue together, and instead just use tab separated files.
 
 ### Downloading reports
 
